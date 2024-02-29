@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1149.0" data-gr-ext-installed="" class="contact-page">
+    <div id="wrapper">
+        <header>
+            <h1>Contact the Owner Of website </h1>
+            <h3>Get In Touch With me </h3>
+        </header>
+        <nav class="menu">
+                
+            <ul>
+                <li><a href="index.html">Learning Journal</a></li>
+                <li><a href="tutorial.html">Tutorial</a></li>
+                <li><a href="contact.html">Contact me</a></li>
+            </ul>
+        </nav>  
+        <form id="form1">
+            <fieldset>
+                <legend>Your contact details</legend>
+                <label for="name">Name: </label>
+                <input id="name" type="text" required placeholder="Forename+Surname">
+                <label for="email">Email: </label>
+                <input id="email" type="email" required>
+                <label for="tel">Mobile number: </label>
+                <input id="tel" type="tel">
+                <label for="url">URL: </label>
+                <input id="url" type="url">
+            </fieldset>
+            <fieldset>
+                <label for="message">Message: </label>
+                <textarea id="message" required=""></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Would you like more information?</legend>
+                     <label for="information-yes">
+                     <input type="radio" id="information-yes" name="information" value="yes">Yes please</label>
+                  <label for="information-no">
+                     <input type="radio" id="information-no" name="information" value="no" checked="">No thanks</label>
+            </fieldset>
+            <input type="submit" value="Click to send">
+        </form>
+        <form id="html5" onsubmit="return false" oninput="level.value = range2.valueAsNumber">
+            <fieldset>
+                <legend><a id="html5form"></a>HTML5 form features</legend>
+                <label for="search">Search: </label>
+                <input id="search" type="search">
+                <label for="date">Date: </label>
+                <input id="date" type="date">
+                <label for="color">Color: </label>
+                <input id="color" type="color">
+                <label for="number">Number: </label>
+                <input id="number" type="number" min="0" max="100" step="5">
+                <label for="range2">Range:</label>
+                <input id="range2" type="range" min="0" max="100" value="0">
+                <output for="range" name="level">0</output>/100
+            </fieldset>
+        </form>
+        <footer>
+            <small>© 2013-2015, Jennie Harding</small>
+        </footer>
+    </div>
+</body>
+
+</html>
