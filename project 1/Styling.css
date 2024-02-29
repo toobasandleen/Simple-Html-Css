@@ -1,0 +1,284 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: 'Ubuntu Mono', monospace;
+}
+.logo h4{
+	margin-top:10px;
+	color:white;
+	font-size:20px;
+}
+.logo img{
+
+	height:70px;
+	width:70px;
+	border-radius:50%;
+}
+nav{
+	display:flex;
+	padding:1% 4%;
+	justify-content:space-between;
+}
+.nav-links ul li{
+	list-style:none;
+	display:inline-block;
+	padding:10px 70px;
+	margin:10px;
+
+}
+.nav-links {
+	flex:1;
+text-align:right;
+}
+.nav-links ul li a{
+	text-decoration:none;
+	color:white;
+	font-size: 25px;
+}
+.header{
+	height:100vh;
+	width:100%;
+	background-image:linear-gradient(rgba(4,8,60,1),rgba(4,8,60,0.1)),url('images/home1.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;	
+	
+}
+
+.quote h3
+{
+	margin-left:30px;
+	margin-top:100px;
+	color:white;
+	font-size:50px;
+	padding:5px;
+	padding-bottom:20px;
+	text-align:left;
+	border-radius:12%;
+	
+}
+.sec2 {
+	
+	margin:10%;
+	
+	
+}
+.sec2 h1
+{
+	font-size:40px;
+
+}
+.sec2 h2{
+	
+	font-size:25px;
+}
+.sec3 {
+	
+	margin:100px auto;
+	width:80%;
+	background-image:linear-gradient(rgba(1,0,0,0.5),rgba(1,0,0,0.5)),url(images/home3.jpg);
+	background-position:center;
+	background-size:cover;
+	border-radius:10px;
+	text-align:center;
+	padding-top:100px;
+	padding-bottom:100px;
+	color:white;
+	
+	margin-bottom:30px;
+}
+.sec3 h3
+{
+	font-size:30px;
+	
+}
+.sec4
+{
+	background-color:#e7e7e7;
+			height:100vh;
+	width:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+.sec4 h1{
+	text-align:center;
+	margin-left:30px;
+	margin-top:80px;
+	color:black;
+	font-size:70px;
+	padding:50px;
+	padding-bottom:20px;
+	border-radius:12%;
+	
+}
+.sec4 ul
+{
+	margin-top:100px;
+margin-left:300px;
+font-size:30px;	
+}
+.parent{
+	display:flex;
+		justify-content:space-between;
+	
+}
+.child1 img
+{
+	height:400px;
+	width:400px;
+}
+.child1{
+margin:20px;
+padding: 20px;
+
+}
+
+
+
+
+.footer{
+	width:100%;
+	text-align:center;
+	color:#0f0f10b3;
+	padding:20px 0px;
+	display:flex;
+	justify-content:space-between;
+}
+.foot
+{
+	margin-left:70px;
+}
+.ico{
+	padding-left:10px;
+	color:black;
+	display:inline;
+}
+.foot ul li{
+	list-style:none;
+	display:inline-block;
+	padding:10px 40px;
+	margin:10px;
+
+}
+.foot-link {
+	flex:1;
+	text-align:right;
+}
+.nav-links ul li a{
+	text-decoration:none;
+	color:white;
+	font-size: 25px;
+}
+
+/* ....Start Now Css... */
+
+.header2{
+	
+	height:20vh;
+	width:100%;
+	background-color:#e7e7e7;	
+	
+}
+.header2 .nav-links ul li
+{
+margin-top:20px;	
+}
+.header2 .nav-links ul li:hover{
+	transform:scale(1,1);
+	background-color:#00daff;
+	transition:1s;
+	border-radius:10px;
+}
+
+.header2 ul li a{
+	padding:10px;
+	color:black;
+}
+
+.header2 .logo h4 {
+	color:black;
+}
+.intro h1{
+	text-align:center;
+	font-size:40px;
+	padding:10px;
+	margin:30px;
+	
+}
+.colorh {
+	
+	color:#00daff;
+	
+	
+}
+.cssimage{
+	height:290px;
+	width:350px;
+	
+	
+	
+}
+.text h2
+{
+	padding:20px;
+	
+}
+.intro p
+{
+	
+	
+	padding:10px;
+	margin:10px;
+	font-family: 'Red Hat Mono', monospace;
+	
+}
+.main img
+{
+	height:200px;
+	width:200px;
+	padding:20px;
+	border-radius:20%;
+}
+.text{
+	margin:40px;
+	background:#e7e7e7;
+	border: 1px;
+	padding:30px;
+	border-radius: 25px;
+	
+}
+.main{
+	width:1130px;
+	max-width:95%;
+	margin:5px auto;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	
+	
+}
+
+
+
+/* Contact   */
+.contact{
+	height:100vh;
+	width:100%;
+	background-image:linear-gradient(rgba(4,8,60,1),rgba(4,8,60,0.1)),url('images/third1.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;	
+	
+	
+}
+
+.contact h1{
+	text-align:center;
+	color:white;
+	font-size:100px;
+	padding:200;
+	
+}
+
